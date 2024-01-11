@@ -12,8 +12,8 @@
         "Id": "spa",
         "Name": "ms-identity-javascript-angular-spa",
         "Kind" :  "SinglePageApplication",
-        "HomePage": "http://localhost:4200/",
-        "ReplyUrls":"http://localhost:4200/",
+        "HomePage": "http://localhost:8900/",
+        "ReplyUrls":"http://localhost:8900/",
         "Audience": "AzureADandPersonalMicrosoftAccount",
         "RequiredResourcesAccess": [
           {

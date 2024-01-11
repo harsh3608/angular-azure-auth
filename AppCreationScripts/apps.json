@@ -11,7 +11,7 @@
         "x-ms-version": "2.0",
         "replyUrlsWithType": [
           {
-            "url": "http://localhost:4200/",
+            "url": "http://localhost:8900/",
             "type": "Spa"
           }
         ],
@@ -21,9 +21,9 @@
             "resourceAppId": "00000003-0000-0000-c000-000000000000",
             "resourceAccess": [
               {
-                "id": "cd226c4e-43c2-432a-a790-a451945aa9b4",
+                "id": "c06d3bb0-5643-47cd-9720-de765aff72e2",
                 "type": "Scope",
-                "x-ms-name": "angular-2.read"
+                "x-ms-name": "spa-scope-1"
               }
             ]
           }
@@ -33,7 +33,7 @@
             "settingFile": "/src/app/app.module.ts",
             "replaceTokens":
               {
-              "appId": "cd226c4e-43c2-432a-a790-a451945aa9b4",
+              "appId": "c06d3bb0-5643-47cd-9720-de765aff72e2",
               "tenantId": "a353c19d-2a45-4b70-a946-4ade8421a354",
               "authorityEndpointHost": "Enter_the_Cloud_Instance_Id_Here",
               "redirectUri": "https://login.microsoftonline.com/a353c19d-2a45-4b70-a946-4ade8421a354/saml2",
@@ -44,7 +44,7 @@
             "settingFile": "/src/app/profile/profile.component.ts",
             "replaceTokens":
               {
-              "msgraphEndpointHost": "Enter_the_Graph_Endpoint_Here"
+              "msgraphEndpointHost": "https://graph.microsoft.com"
               }
             }
         ]
